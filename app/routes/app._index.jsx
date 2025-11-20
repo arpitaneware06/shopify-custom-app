@@ -133,7 +133,7 @@ export default function Index() {
             onClick={generateProduct}
             {...(isLoading ? { loading: true } : {})}
           >
-           Generate a product
+           Hello Arpita Generate a product
           </s-button>
           {fetcher.data?.product && (
             <s-button
