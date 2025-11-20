@@ -77,7 +77,7 @@ export default function CustomPage() {
           </Button>
 
           <Button tone="critical">
-            Cancle
+            Cancle Any time you want 
           </Button>
           
         </InlineStack>
