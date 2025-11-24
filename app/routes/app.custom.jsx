@@ -76,7 +76,7 @@ export default function CustomPage() {
             Delete Selected
           </Button>
 
-          <Button tone="critical">
+          <Button tone="critical" onClick={cancelSelectedProducts}>
             Cancle Any time you want 
           </Button>
           

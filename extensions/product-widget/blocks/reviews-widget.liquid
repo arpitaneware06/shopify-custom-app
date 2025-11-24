@@ -1,0 +1,19 @@
+<div id="reviews-{{ product.id }}"
+     class="my-review-widget"
+     data-product-id="{{ product.id }}">
+  <div class="review-list">Loading reviews...</div>
+  <div class="review-form"></div>
+
+  <script src="{{ 'reviews.js' | asset_url }}" defer></script>
+  {{ 'reviews.css' | asset_url | stylesheet_tag }}
+
+  {% schema %}
+  {
+    "name": "Review Widget",
+    "target": "section",
+    "enabled_on": {
+      "templates": ["product"]
+    }
+  }
+  {% endschema %}
+</div>
